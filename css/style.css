@@ -3,6 +3,7 @@ body {
   font-family: League Spartan;
   width: 100%;
   height: 100%;
+  font-size: 1.2rem;
 }
 
 body,
@@ -12,7 +13,6 @@ li {
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-size: 1.2rem;
 }
 
 a {
@@ -30,6 +30,10 @@ h1 span {
 
 p {
   font-weight: 300;
+}
+
+p span{
+  font-weight: bold;
 }
 
 #gotoTop span {
@@ -98,12 +102,6 @@ p {
   justify-content: center;
 }
 
-.fotorama__wrap {
-  width: 100%;
-}
-.fotorama__stage__shaft {
-  width: 100%;
-}
 
 .container div {
   display: flex;
@@ -146,6 +144,15 @@ p {
 
 #NossosServicos p span {
   font-weight: bold;
+}
+
+#NossosServicos button{
+  height: 50px;
+  width: 300px;
+  background-color: #fcce47;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 #FaleConosco p span {

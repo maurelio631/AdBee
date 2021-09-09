@@ -19,5 +19,3 @@ window.onscroll = () => {
     gotoTopBtn.style.display = "none";
   }
 };
-
-
