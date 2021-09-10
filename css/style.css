@@ -32,7 +32,7 @@ p {
   font-weight: 300;
 }
 
-p span{
+p span {
   font-weight: bold;
 }
 
@@ -95,13 +95,9 @@ p span{
   margin: 4% 0;
 }
 
-.fotorama {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.fotorama__wrap{
+  width: 100% !important;
 }
-
 
 .container div {
   display: flex;
@@ -133,7 +129,7 @@ p span{
   align-self: center;
 }
 
-#NossosServicos :nth-child(3){
+#NossosServicos :nth-child(3) {
   width: 30vw;
 }
 
@@ -146,7 +142,7 @@ p span{
   font-weight: bold;
 }
 
-#NossosServicos button{
+#NossosServicos button {
   height: 50px;
   width: 300px;
   background-color: #fcce47;
