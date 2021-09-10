@@ -1,6 +1,8 @@
 const menuBtn = document.getElementById("menuBtn");
 const gotoTopBtn = document.getElementById("gotoTop");
 const pageBody = document.getElementsByTagName("body");
+const messageMe = document.getElementById("messageMe");
+
 menuBtn.addEventListener("click", function toggleMenu(event) {
   if (event.type === "touchstart") {
     event.preventDefault();
@@ -19,3 +21,7 @@ window.onscroll = () => {
     gotoTopBtn.style.display = "none";
   }
 };
+
+messageMe.addEventListener("click", ()=>{
+  window.open("https://wa.me/5511959729287", '_blank');
+});

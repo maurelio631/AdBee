@@ -95,6 +95,14 @@ p span {
   margin: 4% 0;
 }
 
+.container div hr{
+    width: 60px;
+    margin-left: 0;
+    border-width: 1px;
+    border-color: #fcce47;
+    margin-top: 1px;
+}
+
 .fotorama__wrap{
   width: 100% !important;
 }
