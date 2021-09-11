@@ -2,6 +2,7 @@ const menuBtn = document.getElementById("menuBtn");
 const gotoTopBtn = document.getElementById("gotoTop");
 const pageBody = document.getElementsByTagName("body");
 const messageMe = document.getElementById("messageMe");
+const fotoramaImage = document.getElementsByClassName("fotorama__img");
 
 menuBtn.addEventListener("click", function toggleMenu(event) {
   if (event.type === "touchstart") {
@@ -22,6 +23,10 @@ window.onscroll = () => {
   }
 };
 
-messageMe.addEventListener("click", ()=>{
-  window.open("https://wa.me/5511959729287", '_blank');
+messageMe.addEventListener("click", () => {
+  window.open("https://wa.me/5511959729287", "_blank");
 });
+
+fotoramaImage.onclick = function (e){
+  e.preventDefault();
+}

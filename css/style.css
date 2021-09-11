@@ -107,6 +107,10 @@ p span {
   width: 100% !important;
 }
 
+.fotorama{
+  cursor: pointer;
+}
+
 .container div {
   display: flex;
   flex-direction: column;
