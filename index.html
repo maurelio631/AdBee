@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <link rel="stylesheet" href="./css/flickty.css" media="screen">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>AdBee</title>
 </head>
@@ -29,14 +28,11 @@
         </nav>
     </header>
 
-    <div class="fotorama">
-
-       <img id="fotoramaImage" src="https://s.fotorama.io/1.jpg">
-
-        <!-- <img src="https://s.fotorama.io/2.jpg"> -->
-
+    <div class="carousel" data-flickity='{"freeScroll": true}'>
+        <div class="carousel-cell">
+            <img id="carouselImage" src="./img/test.png"/>
+        </div>
     </div>
-
 
     <div class="container">
         <div>
@@ -211,6 +207,8 @@
     </footer>
 
     <script src="./js/script.js"></script>
+    <script src="./js/flickty.pkgd.js"></script>
+
 </body>
 
 </html>

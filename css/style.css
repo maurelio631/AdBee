@@ -103,12 +103,8 @@ p span {
     margin-top: 1px;
 }
 
-.fotorama__wrap{
-  width: 100% !important;
-}
-
-.fotorama{
-  cursor: pointer;
+.carouselImage{
+  width: 100%;
 }
 
 .container div {
@@ -116,7 +112,7 @@ p span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 10%;
+  margin: 2% 10%;
   scroll-behavior: smooth;
 }
 
