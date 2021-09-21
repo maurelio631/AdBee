@@ -103,9 +103,11 @@ p span {
     margin-top: 1px;
 }
 
-.carouselImage{
+.carousel{
   width: 100%;
 }
+
+
 
 .container div {
   display: flex;
