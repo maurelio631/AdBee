@@ -3,6 +3,8 @@ const gotoTopBtn = document.getElementById("gotoTop");
 const pageBody = document.getElementsByTagName("body");
 const messageMe = document.getElementById("messageMe");
 const carouselImage = document.getElementById("carouselImage");
+const carouselBtn = document.getElementById("btn");
+
 
 menuBtn.addEventListener("click", function toggleMenu(event) {
   if (event.type === "touchstart") {
@@ -29,4 +31,10 @@ messageMe.addEventListener("click", () => {
 
 if (carouselImage) {
   carouselImage.addEventListener("click", () => console.log("clicou"));
+}
+
+if(carouselBtn){
+  carouselBtn.addEventListener("click",function (){
+    window.open("https://wa.me/5511959729287", "_blank")
+  })
 }
