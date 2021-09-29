@@ -88,6 +88,11 @@ p span {
   padding: 10px;
 }
 
+.carousel img{
+  display: block;
+  height: 100vh;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -101,10 +106,6 @@ p span {
   border-width: 1px;
   border-color: #fcce47;
   margin-top: 1px;
-}
-
-.carousel {
-  width: 100%;
 }
 
 .container div {
@@ -172,8 +173,8 @@ h2 span {
 }
 
 .btn {
-  width: 262px;
-  height: 70px;
+  width: 350px;
+  height: 100px;
   position: absolute;
   top: 64%;
   left: 63%;
@@ -390,6 +391,31 @@ footer ul li a {
 }
 
 @media (max-width: 600px) {
+  .carousel img{
+    display: block;
+    height: 190px;
+  }
+  .btn{
+    width: 105px;
+    height: 42px;
+    position: absolute;
+    top: 64%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #fcce47;
+    color: black;
+    font-size: 10px;
+    padding: 12px 24px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: League Spartan;
+    display: flex;
+    align-items: center;
+  }
+
   footer img {
     margin: 0 auto;
     align-items: center;
