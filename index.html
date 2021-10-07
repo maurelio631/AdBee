@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/flickty.css" media="screen">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>AdBee</title>
 </head>
@@ -28,13 +29,21 @@
         </nav>
     </header>
 
-    <div class="carousel" data-flickity='{"imagesLoaded": true, "percentPosition": false}'>
+    <!-- <div class="carousel" data-flickity='{"imagesLoaded": true, "percentPosition": false}'>
         <div class="carousel-cell">
             <img id="carouselImage" src="./img/1.png" />
             <button class="btn" id="btn">Quero vender mais</button>
         </div>
         
+    </div> -->
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="./img/1.png" style="width:100%">
+
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
     </div>
+
 
     <div class="container">
         <div>
