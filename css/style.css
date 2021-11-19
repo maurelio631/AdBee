@@ -267,19 +267,19 @@ h2 span {
 }
 
 footer {
-  display: flex;
+  display: flex !important;
   justify-content: space-around;
   align-items: center;
   background: rgba(0, 0, 0, 0.9);
   color: #fccf47;
   position: static;
-  bottom: 0px;
+  bottom: -30px;
   width: 100%;
 }
 
 footer img {
-  height: 50%;
-  width: 50%;
+  height: 30%;
+  width: 30%;
   display: flex;
 }
 
